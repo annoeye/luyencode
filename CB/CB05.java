@@ -1,6 +1,8 @@
+package CB;
+
 import java.util.Scanner;
 
-public class DK03 {
+public class CB05 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine().trim();
@@ -8,7 +10,7 @@ public class DK03 {
         if (arr.length == 2){
             int numberone = Integer.parseInt(arr[0]);
             int numbertwo = Integer.parseInt(arr[1]);
-            System.out.println(Math.abs(Math.max(numberone, numbertwo) - Math.min(numberone, numbertwo)));
+            System.out.println(numberone % numbertwo);
         }
         sc.close();
     }

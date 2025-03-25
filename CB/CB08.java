@@ -1,6 +1,8 @@
+package CB;
+
 import java.util.Scanner;
 
-public class CB06 {
+public class CB08 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine().trim();
@@ -8,12 +10,7 @@ public class CB06 {
         if (arr.length == 2){
             int numberone = Integer.parseInt(arr[0]);
             int numbertwo = Integer.parseInt(arr[1]);
-            System.out.format(
-                    "%d%n"+
-                    "%d%n",
-                    (numberone + numbertwo) * 2,
-                    numberone * numbertwo
-                    );
+            System.out.println(numberone + " + " + numbertwo + " = " + (numberone + numbertwo));
         }
         sc.close();
     }

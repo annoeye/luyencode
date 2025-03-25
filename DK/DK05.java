@@ -1,3 +1,5 @@
+package DK;
+
 import java.util.Scanner;
 
 public class DK05 {

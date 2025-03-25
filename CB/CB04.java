@@ -1,3 +1,5 @@
+package CB;
+
 import java.util.Scanner;
 
 public class CB04 {
