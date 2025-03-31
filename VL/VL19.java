@@ -1,5 +1,7 @@
-    import java.util.Scanner;
-    
+package VL;
+
+import java.util.Scanner;
+
     public class VL19 {
         public static void main(String[] s) {
             Scanner sc = new Scanner(System.in);

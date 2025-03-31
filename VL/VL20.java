@@ -1,3 +1,5 @@
+package VL;
+
 import java.util.Scanner;
 
 public class VL20 {

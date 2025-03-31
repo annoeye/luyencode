@@ -1,3 +1,5 @@
+package VL;
+
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -11,7 +13,7 @@ public class VL12 {
                 .flatMap(i -> i * i == n ? IntStream.of(i) : IntStream.of(n / i, i))
                 .boxed().sorted(Comparator.reverseOrder())
                 .map(String::valueOf)
-                .collect(Collectors.joining(" ")) 
+                .collect(Collectors.joining(" "))
         );
     }
 }
