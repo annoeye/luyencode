@@ -1,3 +1,5 @@
+package VT;
+
 import java.util.Scanner;
 
 public class VT08 {

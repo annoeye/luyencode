@@ -1,3 +1,5 @@
+package LinhTaLinhTinh;
+
 import java.util.Scanner;
 
 public class DT1 {

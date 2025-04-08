@@ -1,4 +1,5 @@
-import java.math.BigInteger;
+package SUM;
+
 import java.util.Scanner;
 
 public class SUMBIG {
