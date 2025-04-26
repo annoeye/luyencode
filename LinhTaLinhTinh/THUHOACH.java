@@ -1,3 +1,4 @@
+package LinhTaLinhTinh;
 import java.util.Scanner;
 
 public class THUHOACH {
