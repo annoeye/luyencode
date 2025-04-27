@@ -1,4 +1,4 @@
-package LinhTaLinhTinh;
+package GT;
 
 import java.util.Scanner;
 
