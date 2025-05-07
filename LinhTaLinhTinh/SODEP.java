@@ -1,3 +1,5 @@
+package LinhTaLinhTinh;
+
 import java.util.*;
 
 public class SODEP {
